@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useContext} from 'react';
+import { InputField, Button, Card, TodoList } from './components'
+import HeaderContainer from './containers/headerContainer';
+import ListContainer from './containers/listContainer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <HeaderContainer />
+      <ListContainer />
+    </>
   );
 }
 
 export default App;
+

@@ -1,0 +1,19 @@
+.container {
+    max-width: 450px;
+    border: 1px solid #dedede;
+    padding: 1rem 1.5rem;
+    margin: 1rem;
+}
+
+.card-btn {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 0;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
